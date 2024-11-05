@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Business Website - Ceylon Biscuits Limited</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <a href="#home" class="logo">
+                <img src="https://cbllk.com/white/img/logo.png" alt="Ceylon Biscuits Limited Logo">
+            </a>
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul id="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h2>BISCUITS COMPANY</h2>
+            <h2>Ceylon Biscuits Limited</h2>
+            <p>CBL is a Sri Lankan food manufacturing conglomerate that produces high-quality confectionery and
+                convenient nutrition. Our story started in 1968 with the protein-enriched Care biscuit created in
+                collaboration between CBL, the Sri Lankan Government, and CARE U.S.A., to combat malnutrition in
+                schoolchildren at the time. Since then, we have worked closely with communities across the country
+                to understand food needs and apply our core values to making food that truly enriches lives.</p>
+            <div class="overlay"></div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>History</h2>
+            <div class="about-content">               
+                <p>Simon (Arthur) Wickramasingha (1902-1984), a planter, took over a small biscuit factory in the 1930s
+                    from a
+                    local businessman named Williams. This handmade biscuit operation began at a time when all biscuits
+                    in
+                    the local market were imported.</p>
+                <div class="about-image">
+                    <img src="images/history 01.png" alt="CBL History Image" class="hover-image">
+                    <img src="images/mission.jpeg" alt="CBL History Image" class="hover-image">
+                </div>
+                <p>We are committed to making food we are proud of. We want our food to help build better nutrition
+                    habits
+                    in our communities, and we’re innovating new ways to create great food that our consumers can trust.
+                    Using
+                    the best ingredients, including more locally grown fresh produce, we’re setting new standards every
+                    day in
+                    safety, quality, and taste, helping people make informed, good food choices at every meal of the
+                    day.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="images/1.webp" alt="product 1" class="hover-image">
+                    <h3>Biscuits</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/4.webp" alt="product 2" class="hover-image">
+                    <h3>Sugar Free Biscuits</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/5.webp" alt="product 3" class="hover-image">
+                    <h3>Onion Biscuits</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/6.webp" alt="product 4" class="hover-image">
+                    <h3>Cream Cracker</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/7.webp" alt="product 5" class="hover-image">
+                    <h3>Lanka Soy</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/8.webp" alt="product 6" class="hover-image">
+                    <h3>Crevo</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Price</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/price 01.jpg" alt="Price 1" class="hover-image">
+                </div>
+                <div class="product-item">
+                    <img src="images/price 02.jpg" alt="Product 2" class="hover-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Ceylon Biscuits Limited. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
